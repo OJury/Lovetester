@@ -53,7 +53,7 @@ public class Lovetester{
                 // very complicated calculations
                 int x = a + b;
                 // modulo helps to make a boolean decision
-                if (x % 2 == 0) {
+                if (x % 2 != 0) {
                     System.out.println("Keine Chance, Ihr seid zu unterschiedlich.");
                     System.out.println("Sucht euch einen anderen Partner!");
                 }
