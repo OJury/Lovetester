@@ -1,0 +1,6 @@
+language:java
+mvn test
+mvn install -DskipTests=true
+jdk:
+  - openjdk7
+  - oraclejdk8
